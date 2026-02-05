@@ -8,19 +8,19 @@
 
 ##  Key Features
 
-* ** Fault-Tolerant Backend:** The core differentiator of this project. The server detects cloud database connection failures (e.g., `ECONNREFUSED` due to firewalls) and seamlessly degrades to a "Safe Mode," serving local cached data to ensure zero downtime for the user.
-* ** High-Performance Frontend:** Built with React.js for instantaneous page transitions and dynamic DOM manipulation.
-* ** Secure Architecture:** Environment variable management and isolated database connection logic.
-* ** Responsive Design:** Fully adaptive UI mimicking the production Netflix experience.
+* Fault-Tolerant Backend: The core differentiator of this project. The server detects cloud database connection failures (e.g., `ECONNREFUSED` due to firewalls) and seamlessly degrades to a "Safe Mode," serving local cached data to ensure zero downtime for the user.
+* High-Performance Frontend: Built with React.js for instantaneous page transitions and dynamic DOM manipulation.
+* Secure Architecture: Environment variable management and isolated database connection logic.
+* Responsive Design: Fully adaptive UI mimicking the production Netflix experience.
 
 ---
 
 ##  Tech Stack
 
-* **Frontend:** React.js, CSS3, TMDB API Integration
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB Atlas (Cloud) + Local JSON Fallback (Resilience Layer)
-* **Version Control:** Git & GitHub
+* Frontend: React.js, CSS3, TMDB API Integration
+* Backend: Node.js, Express.js
+* Database: MongoDB Atlas (Cloud) + Local JSON Fallback (Resilience Layer)
+* Version Control: Git & GitHub
 
 ---
 
@@ -76,4 +76,4 @@ In production environments, database connections can be flaky. Instead of crashi
 This ensures the user experience is never interrupted, regardless of backend health.
 
 ## Author
-Raghavendra Saiteja| Full Stack Developer | Problem Solver
+Raghavendra Saiteja | Full Stack Developer | Problem Solver
