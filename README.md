@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone - Fault Tolerant Architecture
+#  Netflix Clone - Fault Tolerant Architecture
 
 > A full-stack MERN application engineered with resilience in mind. Features a self-healing backend that automatically switches to a local backup strategy during network failures or database outages.
 
@@ -6,16 +6,16 @@
 ![Uptime](https://img.shields.io/badge/Uptime-100%25-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Build-Resilient-blue?style=for-the-badge)
 
-## 🚀 Key Features
+##  Key Features
 
-* **🛡️ Fault-Tolerant Backend:** The core differentiator of this project. The server detects cloud database connection failures (e.g., `ECONNREFUSED` due to firewalls) and seamlessly degrades to a "Safe Mode," serving local cached data to ensure zero downtime for the user.
-* **⚡ High-Performance Frontend:** Built with React.js for instantaneous page transitions and dynamic DOM manipulation.
-* **🔐 Secure Architecture:** Environment variable management and isolated database connection logic.
-* **📱 Responsive Design:** Fully adaptive UI mimicking the production Netflix experience.
+* ** Fault-Tolerant Backend:** The core differentiator of this project. The server detects cloud database connection failures (e.g., `ECONNREFUSED` due to firewalls) and seamlessly degrades to a "Safe Mode," serving local cached data to ensure zero downtime for the user.
+* ** High-Performance Frontend:** Built with React.js for instantaneous page transitions and dynamic DOM manipulation.
+* ** Secure Architecture:** Environment variable management and isolated database connection logic.
+* ** Responsive Design:** Fully adaptive UI mimicking the production Netflix experience.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** React.js, CSS3, TMDB API Integration
 * **Backend:** Node.js, Express.js
@@ -24,7 +24,7 @@
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 If you want to run this locally, follow these steps:
 
@@ -67,13 +67,13 @@ npm start
 ### Why Fault Tolerance?
 In production environments, database connections can be flaky. Instead of crashing the application (white screen of death), I implemented a Try-Catch-Fallback pattern in server.js.
 
-Attempt: Connect to MongoDB Atlas.
+1.Attempt: Connect to MongoDB Atlas.
 
-Detect: Catch ECONNREFUSED or timeout errors.
+2.Detect: Catch ECONNREFUSED or timeout errors.
 
-Recover: Serve static backupData to the frontend.
+3.Recover: Serve static backupData to the frontend.
 
 This ensures the user experience is never interrupted, regardless of backend health.
 
 ## Author
-Raghav Sai Full Stack Developer | Problem Solver
+Raghavendra Saiteja| Full Stack Developer | Problem Solver
