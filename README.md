@@ -32,6 +32,7 @@ If you want to run this locally, follow these steps:
 ```bash
 git clone [https://github.com/Raghavsai12/MyNetflixProject.git](https://github.com/Raghavsai12/MyNetflixProject.git)
 cd MyNetflixProject
+```
 ### 2. Install Dependencies
 You need to install packages for both the Client and Server.
 
@@ -39,17 +40,18 @@ You need to install packages for both the Client and Server.
 ```bash
 cd backend
 npm install
-
+```
 ### Frontend:
 ```bash
 cd ../frontend
 npm install
-
+```
 ### Running the Application
 Start the Backend (Port 5000)
 ```Bash
 cd backend
 node server.js
+```
 ### Note on Resilience: If you are on a restricted network (like a college WiFi), you may see a CONNECTION FAILED error in the terminal. This is expected behavior. The application will automatically switch to "Backup Mode" and continue functioning normally.
 
 #### Start the Frontend (Port 3000)
@@ -58,6 +60,7 @@ Open a new terminal:
 ```Bash
 cd frontend
 npm start
+```
 ### The application will launch automatically at http://localhost:3000.
 
 ## Architectural Decisions
